@@ -1,0 +1,11 @@
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/bin/Debug/netcoreapp3.0/ArmstrongPoker
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/bin/Debug/netcoreapp3.0/ArmstrongPoker.deps.json
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/bin/Debug/netcoreapp3.0/ArmstrongPoker.runtimeconfig.json
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/bin/Debug/netcoreapp3.0/ArmstrongPoker.runtimeconfig.dev.json
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/bin/Debug/netcoreapp3.0/ArmstrongPoker.dll
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/bin/Debug/netcoreapp3.0/ArmstrongPoker.pdb
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/obj/Debug/netcoreapp3.0/ArmstrongPoker.csprojAssemblyReference.cache
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/obj/Debug/netcoreapp3.0/ArmstrongPoker.AssemblyInfoInputs.cache
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/obj/Debug/netcoreapp3.0/ArmstrongPoker.AssemblyInfo.cs
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/obj/Debug/netcoreapp3.0/ArmstrongPoker.dll
+/Users/God/Desktop/C#/Armstrong/ArmstrongPoker/ArmstrongPoker/obj/Debug/netcoreapp3.0/ArmstrongPoker.pdb
