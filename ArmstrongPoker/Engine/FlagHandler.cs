@@ -1,9 +1,9 @@
 ﻿using System;
 namespace ArmstrongPoker.Engine
 {
-    public class FlagHandler
+    class FlagHandler
     {
-        public static bool FlagPole()
+        public bool FlagPole()
         {
             Console.Write("Type y or yes if you'd like to continue? ");
             string result = Console.ReadLine();

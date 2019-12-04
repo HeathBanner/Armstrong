@@ -4,9 +4,9 @@ using ArmstrongPoker.Models;
 
 namespace ArmstrongPoker.Engine
 {
-    public class LobbyConstructor
+    class LobbyConstructor
     {
-        public static int LobbyNum()
+        public int LobbyNum()
         {
             int numPlayers = 0;
 
@@ -20,14 +20,13 @@ namespace ArmstrongPoker.Engine
                 if (numPlayers <= 0 || numPlayers >= 24 || !validNum)
                 {
                     Console.WriteLine("\nThe number of players should be from 1-24. Press enter to continue");
-                    Console.ReadLine();
                 }
             }
 
             return numPlayers;
         }
 
-        public static List<Player> LobbyInit(int x)
+        public List<Player> LobbyInit(int x)
         {
             List<Player> players = new List<Player>();
 
@@ -38,7 +37,6 @@ namespace ArmstrongPoker.Engine
             for (int i = 0; i < x; i++)
             {
                 Random rnd = new Random();
-                
 
                 Card card1 = new Card{ Rank = Ranks[rnd.Next(0, 12)], Suit = Suits[rnd.Next(0, 3)] };
                 Card card2 = new Card { Rank = Ranks[rnd.Next(0, 12)], Suit = Suits[rnd.Next(0, 3)] };

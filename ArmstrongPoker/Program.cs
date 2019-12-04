@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using ArmstrongPoker.Engine;
-using static ArmstrongPoker.Engine.LobbyConstructor;
-using static ArmstrongPoker.Engine.FlagHandler;
 using ArmstrongPoker.Models;
 
 namespace ArmstrongPoker
@@ -18,16 +16,19 @@ namespace ArmstrongPoker
             while (flag)
             {
                 //Get the number of players
-                int result = LobbyConstructor.LobbyNum();
+                LobbyConstructor constr = new LobbyConstructor();
+                int result = constr.LobbyNum();
 
                 //Create the players and their hands
-                List<Player> newLobby = LobbyInit(result);
+                List<Player> newLobby = constr.LobbyInit(result);
 
                 //Iterate through the players to find the winner(s)
-                Winner.CheckList(newLobby);
+                Winner winner = new Winner();
+                winner.CheckList(newLobby);
 
                 //Accepts input on whether the use would like to continue
-                flag = FlagPole();
+                FlagHandler handler = new FlagHandler();
+                flag = handler.FlagPole();
             }
 
             Console.WriteLine("\nThank you for playing!\n");
