@@ -1,14 +1,18 @@
 ﻿<Properties StartupConfiguration="{D3A20EA9-2F8A-4A31-B9E7-00AFC11BE460}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ArmstrongPoker/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ArmstrongPoker/Engine/LobbyConstructor.cs">
     <Files>
       <File FileName="ArmstrongPoker/Program.cs" Line="26" Column="46" />
+      <File FileName="ArmstrongPoker/Engine/Winner.cs" Line="60" Column="19" />
+      <File FileName="ArmstrongPoker/Engine/LobbyConstructor.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ArmstrongPoker" expanded="True" selected="True">
+          <Node name="ArmstrongPoker" expanded="True">
             <Node name="ArmstrongPoker" expanded="True">
-              <Node name="Engine" expanded="True" />
+              <Node name="Engine" expanded="True">
+                <Node name="LobbyConstructor.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
             </Node>
           </Node>

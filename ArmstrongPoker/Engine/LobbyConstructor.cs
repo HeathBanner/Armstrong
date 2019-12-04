@@ -38,9 +38,9 @@ namespace ArmstrongPoker.Engine
             {
                 Random rnd = new Random();
 
-                Card card1 = new Card{ Rank = Ranks[rnd.Next(0, 12)], Suit = Suits[rnd.Next(0, 3)] };
-                Card card2 = new Card { Rank = Ranks[rnd.Next(0, 12)], Suit = Suits[rnd.Next(0, 3)] };
-                Card card3 = new Card { Rank = Ranks[rnd.Next(0, 12)], Suit = Suits[rnd.Next(0, 3)] };
+                Card card1 = new Card{ Rank = Ranks[rnd.Next(0, 13)], Suit = Suits[rnd.Next(0, 4)] };
+                Card card2 = new Card { Rank = Ranks[rnd.Next(0, 13)], Suit = Suits[rnd.Next(0, 4)] };
+                Card card3 = new Card { Rank = Ranks[rnd.Next(0, 13)], Suit = Suits[rnd.Next(0, 4)] };
 
                 players.Add(new Player { Id = i, Card1 = card1, Card2 = card2, Card3 = card3 });
             }

@@ -12,7 +12,6 @@ namespace ArmstrongPoker.Engine
         {
             string winners = "";
             string highestRoyal = royalty.HighestRoyal;
-            Console.WriteLine(highestRoyal);
 
             foreach (WinnerModels player in list)
             {
